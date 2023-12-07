@@ -14,6 +14,10 @@ public class Test {
         System.out.println(car1.colour);
          */
 
+        car1.setModel("ZR1");
+
+        System.out.println("Car model: " + car1.getModel());
+
 
 
 

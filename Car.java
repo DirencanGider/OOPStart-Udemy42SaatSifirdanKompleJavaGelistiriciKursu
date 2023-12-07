@@ -9,7 +9,7 @@ public class Car {
     //These are all features that we added this Car class.
 
 
-    public void setModel (String model) { //Set methods are used to reach private objects with different ways in another classes.
+    public void setModel (String model) { //Set methods are used to reach private objects with different ways in other classes.
 
         this.model = model; /*We used "this" keyword because both of words were same. We had to match the model that feature and model that we will assign in Test class.
                             If we assigned another different word like "model1", it wouldnt necessary. Directly we could equal them.*/
